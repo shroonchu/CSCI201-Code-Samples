@@ -1,0 +1,104 @@
+@charset "UTF-8";
+	 img.left {
+		float:left;
+		display: inline-block;
+	 }
+	 div.top{
+	 	margin: 0% 15%;
+	 	width: 80%;
+  		padding: 10px;
+		background-color:white;
+		display:block;
+	 }
+     div.content {
+     	margin: 0% 15%;
+     	width: 80%;
+  		padding: 10px;
+  		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     	font-size: 15px;
+     	line-height: 25px;
+     	color: grey;
+     }
+     h2 {
+     	border-top: 2px dotted grey;
+     	display:block;
+     	height:3px;
+     }
+     span.error{
+     	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     	font-size: 15px;
+     	margin: 120px 70px 0px 70px;
+     	color:red;
+     }
+     span.title {
+     	font-size: 50px;
+     	line-height: 50px;
+     }
+     span.author {
+     	font-size: 30px;
+     	line-height: 80px;
+     }
+     span.other {
+     	font-size: 20px;
+     	line-height: 50px;
+     }
+     span.summ {
+     	font-size: 20px;
+     }
+     form{
+     	width:75%;
+     	height:100%;
+     	margin: 50px 70px;
+     	display: inline-block;
+     }
+     input[type=text] {
+     	width:40%;
+  		padding: 10px 15px;
+  		box-sizing: border-box;
+  		border-radius:8px;
+  		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  		font-size: 15px;
+  		text-align: left;
+  		letter-spacing: 1px;
+  		display: inline-block;
+     }
+     input[type=submit]{
+     	width: 80px;
+     	padding: 10px 15px;
+     	box-sizing: border-box;
+     	border-style:outset;
+     	border-radius:8px;
+     	margin-left: 40px;
+     	background-image: url("magnifying_glass.png");
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: 25px 20px;
+     	background-color: lightgray;
+     	cursor: pointer;
+     	display: inline-block;
+     }
+     input[type=radio]{
+     	display: inline-block;
+     }
+     table{
+     	width:30%;
+     	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     	font-size: 15px;
+     	letter-spacing: 1px;
+     	color:grey;
+     	margin-left: 40px;
+     	position:relative;
+     	top: 10px;
+     	display: inline-block;
+     }
+     a:link, a:visited {
+     	float:left;
+     	background-color:white;
+  		border: 20px clear;
+  		padding: 10px;
+  		margin: 10px 0px 10px 40px;
+  		text-align: left; 
+  		text-decoration: none;
+  		display: inline-block;
+	}
+     
